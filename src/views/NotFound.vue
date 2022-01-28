@@ -1,8 +1,5 @@
 <template>
-  <!--
-    https://vuejs.org/v2/guide/single-file-components.html#What-About-Separation-of-Concerns
-    https://learnvue.co/wp-content/uploads/2021/01/A-VueJS-Cheatsheet-for-Developers-__-By-LearnVue.co_.pdf
-  -->
+  <h1>Page Not Found.</h1>
   <h1 class="text-4xl font-bold my-6">{{ msg }}</h1>
 
   <p>
@@ -67,7 +64,7 @@
 <script lang="ts">
 import { ref, defineComponent } from 'vue'
 export default defineComponent({
-  name: 'HelloWorld',
+  name: 'NotFoundPage',
   props: {
     msg: {
       type: String,

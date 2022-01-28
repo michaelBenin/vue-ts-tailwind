@@ -11,7 +11,10 @@
     "test": "jest"
   },
   "dependencies": {
-    "vue": "^3.1.5"
+    "axios": "0.21.4",
+    "vue": "^3.1.5",
+    "vue-router": "4.0.11",
+    "vuex": "4.0.2"
   },
   "devDependencies": {
     "@types/jest": "^26.0.24",
@@ -26,9 +29,10 @@
     "eslint-plugin-jest": "^24.4.0",
     "eslint-plugin-vue": "^7.14.0",
     "jest": "^27.0.6",
-    "postcss": "^8.3.6",
     "jest-transform-stub": "^2.0.0",
+    "postcss": "^8.3.6",
     "prettier": "^2.3.2",
+    "sass": "1.39.2",
     "tailwindcss": "^2.2.7",
     "ts-jest": "^27.0.4",
     "typescript": "^4.3.5",
